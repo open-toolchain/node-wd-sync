@@ -1,6 +1,6 @@
 {
   "name": "wd-sync",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "sync version of wd using fibers.",
   "keywords": [
     "selenium",
@@ -20,8 +20,8 @@
     "test": "cake test"
   },
   "dependencies": {
-    "make-sync": "~0.2.0",
-    "fibers": "~1.0.1",
+    "make-sync": "git+https://github.com/open-toolchain/node-make-sync.git#v0.3.0"
+    "fibers": "^3.0.0",
     "wd": "~0.2.7",
     "lodash": "~2.2.1"
   },
