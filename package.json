@@ -1,40 +1,40 @@
 {
-  "name": "wd-sync",
-  "version": "1.2.6",
-  "description": "sync version of wd using fibers.",
-  "keywords": [
-    "selenium",
-    "webdriver",
-    "test",
-    "fibers",
-    "sync"
-  ],
-  "author": "Seb Vincent <seb.vincent@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sebv/node-wd-sync.git"
-  },
-  "main": "./index",
-  "engine": "node >= 0.6.1",
-  "scripts": {
-    "test": "cake test"
-  },
-  "dependencies": {
-    "make-sync": "git://github.com/open-toolchain/node-make-sync"
-    "fibers": "^3.0.0",
-    "wd": "~0.2.7",
-    "lodash": "~2.2.1"
-  },
-  "devDependencies": {
-    "coffee-script": "~1.6.3",
-    "sv-cake-utils": "~0.1.8",
-    "mocha": "~1.13.0",
-    "express": "~3.4.4",
-    "whiskers": "~0.3.1",
-    "async": "~0.2.9",
-    "sv-selenium": "~0.2.2",
-    "chai": "~1.8.1",
-    "hbs": "~2.4.0",
-    "request": "~2.27.0"
-  }
+	"name": "wd-sync",
+	"version": "1.2.6",
+	"description": "sync version of wd using fibers.",
+	"keywords": [
+		"selenium",
+		"webdriver",
+		"test",
+		"fibers",
+		"sync"
+	],
+	"author": "Seb Vincent <seb.vincent@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sebv/node-wd-sync.git"
+	},
+	"main": "./index",
+	"engine": "node >= 0.6.1",
+	"scripts": {
+		"test": "cake test"
+	},
+	"dependencies": {
+		"make-sync": "git://github.com/open-toolchain/node-make-sync",
+		"fibers": "^3.0.0",
+		"wd": "~0.2.7",
+		"lodash": "~2.2.1"
+	},
+	"devDependencies": {
+		"coffee-script": "~1.6.3",
+		"sv-cake-utils": "~0.1.8",
+		"mocha": "~1.13.0",
+		"express": "~3.4.4",
+		"whiskers": "~0.3.1",
+		"async": "~0.2.9",
+		"sv-selenium": "~0.2.2",
+		"chai": "~1.8.1",
+		"hbs": "~2.4.0",
+		"request": "~2.27.0"
+	}
 }
