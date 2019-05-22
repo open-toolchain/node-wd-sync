@@ -22,7 +22,7 @@
 	"dependencies": {
 		"make-sync": "git://github.com/open-toolchain/node-make-sync",
 		"fibers": "^3.0.0",
-		"wd": "~0.2.7",
+		"wd": "^1.11.2",
 		"lodash": "~2.2.1"
 	},
 	"devDependencies": {
