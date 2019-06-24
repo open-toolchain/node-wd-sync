@@ -20,7 +20,7 @@
 		"test": "cake test"
 	},
 	"dependencies": {
-		"make-sync": "git://github.com/open-toolchain/node-make-sync",
+		"make-sync": "https://github.com/open-toolchain/node-make-sync#v0.4.0",
 		"fibers": "^3.0.0",
 		"wd": "^1.11.2",
 		"lodash": "~4.17.11"
